@@ -18,7 +18,7 @@ docker stop local-postgres && docker rm local-postgres
 ```
 
 
-# # WORKING Container with persistent data
+## WORKING Container with persistent data
 
 docker build -t custom_postgres  -f Dockerfile .
 docker run --name local-postgres -d  --restart always -p 6543:5432 -v $path_local_data:/var/lib/postgresql/data custom_postgres
