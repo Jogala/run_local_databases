@@ -69,7 +69,7 @@ docker rm local-postgres
 ```
 
 
-# connect via docker
+# Example connect via knex
 
 ```
   development: {
