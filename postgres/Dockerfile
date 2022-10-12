@@ -1,7 +1,7 @@
-FROM postgres:latest
+FROM mysql:latest
 
 ENV POSTGRES_PASSWORD password
-ENV POSTGRES_USER postgres
+ENV POSTGRES_USER joachim
 ENV POSTGRES_DB test
 
 EXPOSE 6543:5432

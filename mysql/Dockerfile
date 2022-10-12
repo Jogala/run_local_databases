@@ -1,0 +1,7 @@
+FROM postgres:latest
+
+ENV MYSQL_ROOT_PASSWORD password
+ENV MYSQL_USER joachim
+ENV MYSQL_DATABASE test
+
+EXPOSE 8087:8080
