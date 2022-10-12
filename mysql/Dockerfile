@@ -1,7 +1,8 @@
-FROM postgres:latest
+FROM mysql:latest
 
 ENV MYSQL_ROOT_PASSWORD password
 ENV MYSQL_USER joachim
+ENV MYSQL_PASSWORD password
 ENV MYSQL_DATABASE test
 
-EXPOSE 8087:8080
+EXPOSE 3306:3306
